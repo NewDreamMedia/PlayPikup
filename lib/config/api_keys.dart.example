@@ -1,0 +1,16 @@
+class ApiKeys {
+  // Google Maps API Key
+  static const String googleMapsApiKey = 'YOUR_GOOGLE_MAPS_API_KEY_HERE';
+  
+  // Google Places API Key (can be same as Maps key if enabled)
+  static const String googlePlacesApiKey = 'YOUR_GOOGLE_PLACES_API_KEY_HERE';
+  
+  // Mapbox Access Token
+  static const String mapboxAccessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+  
+  // IMPORTANT: 
+  // 1. Copy this file to api_keys.dart
+  // 2. Replace the placeholder values with your actual API keys
+  // 3. NEVER commit api_keys.dart to version control
+  // 4. The actual api_keys.dart file is already in .gitignore
+}
