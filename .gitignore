@@ -93,3 +93,8 @@ app.*.map.json
 coverage/
 *.lcov
 EOF < /dev/null
+# Firebase configuration files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+*.env
+.env.*
